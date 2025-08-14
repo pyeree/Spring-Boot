@@ -4,12 +4,3 @@ spring:
     username: "root" #
     password: ""
     driver-class-name: com.mysql.cj.jdbc.Driver #스프링이 마이에스큐엘에 접근할 때 사용할 프로그램
-
-jpa:
-  hibernate:
-    ddl-auto: update #스프링 부트가 데이터베이스에 테이블을 만들 때, 기존 테이블을 업데이트한다는 의미
-  properties:
-    hibernate:
-      format_sql: true #쿼리를 보기 좋게 포맷팅한다는 의미  
-      show-sql: true #쿼리를 콘솔에 출력한다는 의미
-      dialect: org.hibernate.dialect.MySQL8Dialect #마이에스큐엘 8버전을 사용한다는 의미
